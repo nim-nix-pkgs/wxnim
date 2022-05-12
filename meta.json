@@ -7,8 +7,40 @@
   "license": "MIT",
   "web": "https://github.com/PMunch/wxnim",
   "refs": [
-    "fatal: unable to access 'https://github.com/PMunch/wxnim/': Could not resolve host: github.com",
+    "refs/heads/drawing_dc",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "wxnim",
+      "version": "0.9",
+      "author": "Andreas Rumpf and Peter Munch-Ellingsen",
+      "desc": "Nim wrapper for wxWidgets",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [
+        "wxnim"
+      ],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 0.17.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.17.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
